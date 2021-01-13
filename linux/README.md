@@ -20,6 +20,8 @@ rlogin
 
 rsh
 
+find : 리눅스에서 파일 및 디렉토리를 검색할 때 사용하는 명령
+
 hostname -I : centOS ip 주소 확인
 
 systemctl  status : 현재 서비스 중인 프로그램
