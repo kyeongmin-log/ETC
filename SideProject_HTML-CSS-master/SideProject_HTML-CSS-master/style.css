@@ -1,0 +1,83 @@
+ul li{
+    list-style: none; /*점 제거*/
+}
+#home ul li{
+    display: inline; /*row aline*/
+}
+.home_img{
+    text-align: center; /*중앙 정렬*/
+}
+.home_state{
+    text-align: right;
+    border-bottom:2px solid black;
+    margin-bottom: 0;
+    font-size :small;
+    color:gray;
+}
+.home_state li{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.home_menu{
+    text-align: center;
+    border-bottom:2px solid gray;
+    padding-bottom: 15px;
+    font-size :smaller;
+}
+.home_menu li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#home_main{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+#home_main ul{
+    padding-left: 0;
+}
+#home_main img{
+    width: 90%;
+}
+#home_main2{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+}
+#home_main2 ul{
+    padding-left: 0;
+}
+#home_main2 img{
+    width: 90%;
+}
+#test1{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    margin-bottom: 3%;
+}
+#test1 ul{
+    padding-left: 0;
+}
+#test1 img{
+    width: 90%;
+}
+#test2{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    margin-bottom: 3%;
+}
+#test2 ul{
+    padding-left: 0;
+}
+#test2 img{
+    width: 90%;
+}
+#test3{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    margin-bottom: 3%;
+}
+#test3 ul{
+    padding-left: 0;
+}
+#test3 img{
+    width: 90%;
+}
